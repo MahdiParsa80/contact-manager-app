@@ -1,12 +1,13 @@
 @import "tailwindcss";
-@import './fonts/IranSans/IranSans.css';
+@import "./fonts/vazir/Vazirmatn-font-face.css";
+@import "./fonts/vazir/Vazirmatn-Variable-font-face.css";
 @import "./node_modules/react-confirm-alert/src/react-confirm-alert.css";
 *{
-  font-family: 'IRANSans';
+  font-family: 'Vazirmatn';
 }
 body{
   background-color: #222831;
 }
 :root {
-   --toastify-font-family:'IRANSans' !important;
+   --toastify-font-family:'Vazirmatn' !important;
 }
