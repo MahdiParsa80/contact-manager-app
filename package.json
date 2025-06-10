@@ -1,0 +1,46 @@
+{
+  "homepage": "https://MahdiParsa80.github.io/contact-manager-app",
+  "name": "contact-manger-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "oookevindebruyne": "concurrently \"npm run dev\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "@tailwindcss/vite": "^4.1.5",
+    "axios": "^1.9.0",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.4.6",
+    "json-server": "^1.0.0-beta.3",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.3",
+    "react-toastify": "^11.0.5",
+    "tailwindcss": "^4.1.5",
+    "use-immer": "^0.11.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
