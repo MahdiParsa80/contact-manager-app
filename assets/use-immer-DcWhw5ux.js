@@ -1,0 +1,1 @@
+import{f as o,p as f}from"./immer-3Uh6AxIC.js";import{r as n}from"./react-Csju-tCy.js";function c(r){var e=n.useState(function(){return o(typeof r=="function"?r():r,!0)}),u=e[1];return[e[0],n.useCallback(function(t){u(typeof t=="function"?f(t):o(t))},[])]}export{c as i};
