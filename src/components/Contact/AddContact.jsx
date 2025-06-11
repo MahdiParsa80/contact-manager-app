@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import addContactPhoto from '../../contact-manager-app/assets/add_contact.png'
+import addContactPhoto from '../../assets/add_contact.png'
 import { contactContext } from '../../context/contactContext';
 import {ErrorMessage, Field, Form,  Formik} from 'formik'
 import { contactSchema } from '../../validations/contactValidation';

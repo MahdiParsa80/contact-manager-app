@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { COLOR1, COLOR2, COLOR3, COLOR4, COLOR5, COLOR6 } from "../../helpers/colors"
 import Contact from "./contact";
-import notfound from "../../contact-manager-app/assets/404+error.gif"
+import notfound from "../../assets/404+error.gif"
 import LoadGif from "../LoadGif.jsx";
 import { contactContext } from "../../context/contactContext.js";
 const Contacts =()=>{
