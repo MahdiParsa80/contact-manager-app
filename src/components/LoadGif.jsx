@@ -1,4 +1,4 @@
-import spinner from '../assets/tri-spinner.gif'
+import spinner from '../contact-manager-app/assets/tri-spinner.gif'
 
 const LoadGif =()=>{
     return(

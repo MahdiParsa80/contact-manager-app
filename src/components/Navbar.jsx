@@ -6,7 +6,7 @@ const Navbar = () =>{
     
     return(
         // Render the navigation bar with a title and a search component
-        <nav className=" shadow-lg h-20 sticky top-0 bg-[#222831c4]  backdrop-filter backdrop-blur-2xl" >
+        <nav className=" shadow-lg h-20 sticky top-0 bg-[#222831c4]  backdrop-filter backdrop-blur-3xl" >
             <div className="flex justify-center items-center h-full">
                 <div className="flex md:w-2/3 justify-around">
                     <div className="col " style={{color:COLOR4}}>

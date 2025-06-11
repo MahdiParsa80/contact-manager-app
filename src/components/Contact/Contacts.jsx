@@ -2,14 +2,14 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { COLOR1, COLOR2, COLOR3, COLOR4, COLOR5, COLOR6 } from "../../helpers/colors"
 import Contact from "./contact";
-import notfound from "../../assets/404+error.gif"
+import notfound from "../../contact-manager-app/assets/404+error.gif"
 import LoadGif from "../LoadGif.jsx";
 import { contactContext } from "../../context/contactContext.js";
 const Contacts =()=>{
     const {filteredContacts,loading,confirmDelete}=useContext(contactContext)
     return(
         <>
-            <h3 className="fixed bottom-15 right-2  md:bottom-20 md:right-20">
+            <h3 className="fixed bottom-10 right-10  md:bottom-20 md:right-20">
                 <Link to={'/AddContact'}>
                     <button className="w-10 h-10 md:w-auto md:h-auto md:mx-2 p-1 md:p-2 rounded-full md:rounded-2xl " style={{backgroundColor:COLOR3,color:COLOR2}}>
                         <span className="h3 hidden md:block">ساخت مخاطب جدید
